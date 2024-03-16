@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+/* ===================== Scrollbar CSS Start ===================== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #afb2bf;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000814;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #afb2bf;
+  border-radius: 10px;
+  /* visibility: hidden; */
+}
+
+*:active::-webkit-scrollbar-thumb,
+*:focus::-webkit-scrollbar-thumb,
+*:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+/* ===================== Scrollbar CSS End ===================== */
+
+/* Hide default styling of details/summary */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.codeblock1 {
+  background: linear-gradient(123.77deg, #8a2be2 -6.46%, #ffa500 59.04%, #f8f8ff 124.53%);
+  border-radius: 100%;
+  filter: blur(34px);
+  opacity: 0.2;
+  width: 400px;
+  height: 300px;
+  left: calc(50% - 280px);
+  top: calc(50% - 200px);
+  transform: matrix(1, 0, -0.03, 1, 0, 0);
+}
+
+.codeblock2 {
+  background: linear-gradient(118.19deg, #1fa2ff -3.62%, #12d8fa 50.44%, #a6ffcb 104.51%);
+  border-radius: 100%;
+  filter: blur(34px);
+  opacity: 0.2;
+  width: 372px;
+  height: 257px;
+  left: calc(50% - 263px);
+  top: calc(50% - 176px);
+  transform: matrix(1, 0, -0.03, 1, 0, 0);
+}
+
+.homepage_bg {
+  background-image: url('./assets/Images/bghome.svg');
+}
+
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 9px solid #0f7a9d;
+  animation: spinner-bulqg1 0.8s infinite linear alternate, spinner-oaa3wk 1.6s infinite linear;
+}
+
+@keyframes spinner-bulqg1 {
+  0% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
+  }
+
+  12.5% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%);
+  }
+
+  25% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%);
+  }
+
+  50% {
+    clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+  }
+
+  62.5% {
+    clip-path: polygon(50% 50%, 100% 0, 100% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+  }
+
+  75% {
+    clip-path: polygon(50% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 100%, 0% 100%);
+  }
+
+  100% {
+    clip-path: polygon(50% 50%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 0% 100%);
+  }
+}
+
+@keyframes spinner-oaa3wk {
+  0% {
+    transform: scaleY(1) rotate(0deg);
+  }
+
+  49.99% {
+    transform: scaleY(1) rotate(135deg);
+  }
+
+  50% {
+    transform: scaleY(-1) rotate(0deg);
+  }
+
+  100% {
+    transform: scaleY(-1) rotate(-135deg);
+  }
+}
+
+.input-style {
+  @apply w-full rounded-lg bg-richblack-700 text-richblack-5 p-3 shadow-[0_1px_0_0] shadow-white/50 placeholder:text-richblack-400 focus:outline-none;
+}
+
+@layer components {
+  .label-style {
+    @apply mb-2 text-sm text-richblack-5;
+  }
+
+  .input-error-style {
+    @apply mt-1 text-xs text-pink-200 tracking-wide;
+  }
+}
+
+.removeBlueBoxColor {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.check-box-style {
+  /* -webkit-animation: none; */
+  appearance: none;
+  background: #161d29;
+  margin: 0;
+  font: inherit;
+  color: #0f7a9d;
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 2px solid #838894;
+  border-radius: 4px;
+
+  display: grid;
+  place-content: center;
+}
+
+.check-box-style::before {
+  content: '';
+  width: 0.7rem;
+  height: 0.7rem;
+  transform: scale(0);
+  transform-origin: bottom left;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 2em 2em green;
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+.check-box-style:checked::before {
+  transform: scale(1);
+}
+
+.check-box-style:focus {
+  outline: max(2px, 0.15em) solid #0f7a9d;
+  outline-offset: max(2px, 0.15em);
+}

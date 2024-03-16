@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "6481ca5e2ac959f2cee14f9d",
+    "firstName": "Student",
+    "lastName": "Kumar",
+    "email": "student@gmail.com",
+    "password": "$2b$10$ZyU4OnWSjLs8AT7zcFknouYnkLHCJYqkiuG7Vem.3vjx3U4fAVlFu",
+    "role": "Student",
+    "avatar": "https://api.dicebear.com/5.x/initials/svg?seed=Student%20Kumar",
+    "active": true,
+    "approved": true,
+    "profile": "6481ca5e2ac959f2cee14f9b",
+    "courses": [],
+    "courseProgress": [],
+    "reviews": []
+  }
+]
