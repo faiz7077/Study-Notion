@@ -2,17 +2,6 @@
 
 > StudyNotion is a Edtech website. Where a "Instructor" can upload his courses and a "Student" can watch his lectures by paying him. This website is built using MERN (MongoDB, Express, React, NodeJs) Technologies. Frontend/UI is base on React, Redux, Tailwind, CSS, Javascript and HTML.
 
-## Links
-
-> #### Full Stack GitHub Repo - [Click Here](https://github.com/sunny8080/Study-Notion-Mern)
->
-> #### Frontend GitHub Repo - [Click Here](https://github.com/sunny8080/Study-Notion-Mern-Frontend)
->
-> #### Backend GitHub Repo - [Click Here](https://github.com/sunny8080/Study-Notion-Mern-Backend)
->
-> #### Frontend Live at - [https://study-notion-sunny8080.shop](https://study-notion-sunny8080.shop)
->
-> #### Backend Live at - [https://api.study-notion-sunny8080.shop](https://api.study-notion-sunny8080.shop)
 
 ## Usage
 
@@ -114,14 +103,4 @@ cd ../frontend
 npm run dev
 ```
 
-## Live at
 
-The Website is live at - [https://study-notion-sunny8080.shop](https://study-notion-sunny8080.shop)
-
->
-
-The Website is live at ( on Netlify ) - [https://study-notion-mern-sunny8080.netlify.app/](https://study-notion-mern-sunny8080.netlify.app)
-
-- Version - 1.0.0
-- License: sunny8080
-- Author: Sunny Kumar
