@@ -83,7 +83,7 @@ const Footer = () => {
 
 
           <div className='text-center' >
-            Made with ❤️ Faizan © 2023 StudyNotion
+            Made with ❤️ Faizan © 2024 StudyNotion
           </div>
         </div>
       </div>
