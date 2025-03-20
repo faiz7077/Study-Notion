@@ -1,5 +1,6 @@
 
- const iframe = document.createElement("iframe");
+export const chatbot=()=>{
+   const iframe = document.createElement("iframe");
     
     const iframeStyles = (styleString) => {
     const style = document.createElement('style');
@@ -27,3 +28,5 @@
         iframe.height = dimensions.height
         iframe.contentWindow.postMessage("955fa30c-a068-4b30-a743-4045d1731670", "http://localhost:3000/")
     })
+}
+ 
