@@ -1,5 +1,5 @@
-
-export const chatbot=()=>{
+import React from 'react'
+const Chatbot=()=>{
    const iframe = document.createElement("iframe");
     
     const iframeStyles = (styleString) => {
@@ -29,4 +29,5 @@ export const chatbot=()=>{
         iframe.contentWindow.postMessage("955fa30c-a068-4b30-a743-4045d1731670", "http://localhost:3000/")
     })
 }
- 
+
+export default Chatbot;
