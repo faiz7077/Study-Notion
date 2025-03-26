@@ -6,8 +6,7 @@ Study Notion is a comprehensive application designed to streamline online study 
 ---
 
 
-## 🚀 About Me
-I'm a full stack developer...
+
 
 
 ## 🔗 Links
