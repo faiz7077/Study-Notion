@@ -12,7 +12,6 @@ This is a Edtech website, where user can be Instructor or an Student. Instructor
 
 ### A. Run only Frontend
 
-&nbsp;
 
 #### 1. Clone or extract this github repo in your local machine
 
