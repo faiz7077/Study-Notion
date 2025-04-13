@@ -3,7 +3,7 @@
 
 Study Notion is a comprehensive application designed to streamline online study through video lectures. It consists of educators and students where educators upload there courses and based in the niches the student purchases the courses and study and grow.
 
------
+
 
 
 
