@@ -8,6 +8,7 @@
 
 This is used to perform any CRUD operation which is required in StudyNotion application
 
+---
 ## How to Use
 
 #### 1. Clone or extract this github repo in your local machine
