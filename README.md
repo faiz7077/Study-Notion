@@ -6,9 +6,6 @@ Study Notion is a comprehensive application that is designed to streamline onlin
 
 
 
-
-
-
 ## 🔗 Lets connect
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
