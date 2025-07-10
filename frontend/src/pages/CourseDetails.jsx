@@ -41,7 +41,6 @@ const CourseDetails = () => {
   const [loading2, setLoading2] = useState(false);
 
 
-
   useEffect(() => {
     const fetchCourseData = async () => {
       setLoading(true);
