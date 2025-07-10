@@ -4,8 +4,6 @@ import Sidebar from '../components/core/Dashboard/Sidebar'
 
 const DashBoard = () => {
 
-
-
   return (
     <div className='flex  relative min-h-[calc(100vh-3.5rem)] bg-richblack-900 text-white' >
       <Sidebar />
