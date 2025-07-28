@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 
-// This hook detects clicks outside of the 
-specified component (modalRef) and calls the provided handler function (handler)
+// This hook detects clicks outside of the specified component (modalRef) and calls the provided handler function (handler)
 const useOnClickOutside = (modalRef, handler) => {
   useEffect(() => {
     // Define listener function to close modal, to be called on click/touch events
