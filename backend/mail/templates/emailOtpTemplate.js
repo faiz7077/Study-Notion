@@ -7,6 +7,7 @@ const emailOtpTemplate = (otp) => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OTP Verification Email</title>
 
+
     <style>
       body {
         background-color: #ffffff;
