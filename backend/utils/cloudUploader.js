@@ -9,7 +9,6 @@ const cloudUploader = async (file, folder, height, quality) => {
   };
   if (height) options.height = height;
   if (quality) options.quality = quality;
-
   try {
     const uploadResponse = await cloudinary.uploader.upload(file.tempFilePath, options);
     return uploadResponse;
