@@ -5,7 +5,6 @@ const navbarLinks = [
   },
   {
     title: "Catalog",
-    // path: '/catalog',
   },
   {
     title: "About Us",
