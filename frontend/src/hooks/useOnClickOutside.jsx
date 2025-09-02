@@ -9,6 +9,7 @@ const useOnClickOutside = (modalRef, handler) => {
       if (!modalRef.current || modalRef.current.contains(event.target)) {
         return;
       }
+      
       handler(event);
     };
 
