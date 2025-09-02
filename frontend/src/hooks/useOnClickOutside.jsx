@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-
 // This hook detects clicks outside of the specified component (modalRef) and calls the provided handler function (handler)
 const useOnClickOutside = (modalRef, handler) => {
   useEffect(() => {
