@@ -15,16 +15,5 @@ const connectDB = async () => {
 }
 
 
-// // 2nd way to connect to mongo db
-// const connectDB = () => {
-//   mongoose.connect(process.env.MONGO_URI)
-
-//     .then(() => clgDev("MongoDB connected successfully".cyan.underline.bold))
-//     .catch((err) => {
-//       clgDev(`${err.message}`.red.underline.bold);
-//       process.exit(1);
-//     });
-// }
-
 
 module.exports = connectDB;
