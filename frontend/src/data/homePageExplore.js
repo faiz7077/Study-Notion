@@ -113,6 +113,7 @@ const homePageExplore = [
         level: 'Beginner',
         lessionNumber: 6
       },
+      
     ]
   },
 ]
