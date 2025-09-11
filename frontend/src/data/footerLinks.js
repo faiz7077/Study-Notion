@@ -4,7 +4,7 @@ const footerLinks = [
     links: [
       { title: 'About', link: '/about' },
       { title: 'Careers', link: '/careers' },
-      { title: 'Affiliates', link: '/affiliates' },
+      { title: 'Affiliate', link: '/affiliates' },
     ]
   },
 
