@@ -20,7 +20,6 @@ import MyProfile from './components/core/Dashboard/MyProfile';
 import Settings from './components/core/Dashboard/Settings/Settings';
 import Cart from './components/core/Dashboard/Cart/Cart';
 import EnrolledCourses from './components/core/Dashboard/EnrolledCourses';
-// eslint-disable-next-line
 import PurchaseHistory from './components/core/Dashboard/PurchaseHistory';
 // eslint-disable-next-line
 import { ROLE_TYPE } from './utils/constants';
